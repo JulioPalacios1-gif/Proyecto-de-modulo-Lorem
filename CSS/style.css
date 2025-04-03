@@ -36,3 +36,90 @@ footer{
     width: 100%;
     opacity: 0.5;
 }
+
+
+
+main section{
+    margin: 100px 50px 150px 50px;
+    padding-bottom: 20px;
+}
+
+main section h1{
+    font-size: 33px;
+
+}
+main section p{
+    font-size: 22px;
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.textoinicio{
+    margin-left: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.textoinicio h1 p{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.inicioimg{
+    margin-right: 200px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.seccion2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.inicioimg img{
+    width: 400px ;
+    
+}
+
+.tarjetas{
+    box-shadow: 2px 2px 2px rgb(110, 110, 110);
+    border: black 1px solid;
+    margin: 60px;
+    margin-bottom: 100px;
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.tarjetas img{
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.tarjetas button{
+    margin-left: 10px;
+    background-color: #4DD1CE;
+}
+
+.tarjetas button:hover{
+    background-color: #368a88;
+}
+
+.tarjetas button a{
+    text-decoration: none;
+    color: black;
+}
+
