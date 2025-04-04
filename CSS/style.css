@@ -5,8 +5,11 @@
 body{
     background-color: #EAEAEA;
     font-family: "Italiana", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 header {
+    
     background-color: #4DD1CE;
 }
 header h1 {
@@ -49,7 +52,7 @@ main section h1{
 
 }
 main section p{
-    font-size: 22px;
+    font-size: 20px;
 }
 
 section{
@@ -59,38 +62,12 @@ section{
 }
 
 
-.textoinicio{
-    margin-left: 300px;
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-.textoinicio h1 p{
-    display: flex;
-    flex-direction: column;
-}
-
-
-
-.inicioimg{
-    margin-right: 200px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-}
-
 .seccion2{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 }
 
-.inicioimg img{
-    width: 400px ;
-    
-}
 
 .tarjetas{
     box-shadow: 2px 2px 2px rgb(110, 110, 110);
@@ -123,3 +100,36 @@ section{
     color: black;
 }
 
+.aboutUs{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.tarjetas2{
+    margin: 60px;
+    height: 400px;
+    width: 400px;
+    overflow: hidden;
+}
+
+.tarjetas2 img{
+    object-fit: cover;
+}
+
+
+@media(width <=600px){
+    header nav {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+    }
+    
+    .tarjetas2{
+    flex-direction: column;
+    }
+
+    
+    
+}
