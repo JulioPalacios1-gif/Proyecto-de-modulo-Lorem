@@ -4,6 +4,8 @@
 body{
     background-color: #EAEAEA;
     font-family: "Italiana", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 header {
     background-color: #4DD1CE;
@@ -47,7 +49,7 @@ footer{
     border-radius: 15px;
     overflow: hidden;
     box-shadow: 0px 10px 10px  #ccc;
-    background-color: rgb(251, 255, 220);
+    background-color: white;
 }
 
 .card img {
@@ -63,6 +65,83 @@ footer{
 }
 
 .tarjetas :hover {
-    background-color: rgb(140, 155, 241);
+    background-color: whitesmoke;
     transform: scale(1.05);
+}
+
+.contacto1 {
+    overflow: hidden;
+    border-radius: 7px;
+    padding-left: 850px;
+}
+
+.contacto1 img {
+    float: left;
+    border-radius: 7px;
+    padding-right: 15px;
+}
+
+.contacto1 p {
+    padding: 15px;
+    margin: 15px;
+    font-size: 17px;
+}
+
+.contacto2 {
+    overflow: hidden;
+    border-radius: 7px;
+    padding-left: 850px;
+}
+
+.contacto2 img{
+    float: left;
+    border-radius: 7px;
+    padding-right: 15px;
+}
+
+.contacto2 p {
+    padding: 15px;
+    margin: 15px;
+    font-size: 17px;
+}
+
+.contacto3 {
+    overflow: hidden;
+    border-radius: 7px;
+    padding-left: 850px;
+}
+
+.contacto3 img {
+    float: left;
+    border-radius: 7px;
+    padding-right: 15px;
+}
+
+.contacto3 p {
+    padding: 15px;
+    margin: 15px;
+    font-size: 17px;
+}
+
+.contacto4 {
+    overflow: hidden;
+    border-radius: 7px;
+    padding-left: 850px;
+}
+
+.contacto4 img {
+    float: left;
+    border-radius: 7px;
+    padding-right: 15px;
+}
+
+.contacto4 p {
+    padding: 15px;
+    margin: 15px;
+    font-size: 17px;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 25px;
 }
